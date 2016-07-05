@@ -1,12 +1,11 @@
 {
   "name": "atom-translate-i18n",
   "main": "./lib/comment",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Insert i18n prefix and suffix (for meteor app)",
   "activationCommands": {
     "atom-text-editor": [
-      "comment:toggle",
-      "comment:toggleSingleLine"
+      "comment:toggle"
     ]
   },
   "scripts": {
