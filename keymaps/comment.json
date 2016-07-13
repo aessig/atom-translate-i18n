@@ -1,6 +1,6 @@
 {
     "atom-text-editor": {
-        "shift-cmd-b": "comment:toggle",
-        "alt-cmd-b": "comment:toggleSingleLine"
+        "alt-cmd-n": "translate:toggleSingleQuote",
+        "alt-cmd-b": "translate:toggleDoubleQuote"
     }
 }

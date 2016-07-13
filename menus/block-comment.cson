@@ -1,7 +1,7 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   'atom-text-editor': [{
-    'label': 'Toggle comment', 'command': 'comment:toggle'
+    'label': 'Toggle comment', 'command': 'translate:toggleSingleQuote'
   }]
 
 'menu': [
@@ -10,7 +10,7 @@
     'submenu': [
       'label': 'Comments'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'comment:toggle' }
+        { 'label': 'Toggle', 'command': 'translate:toggleSingleQuote' }
       ]
     ]
   }
