@@ -2,7 +2,7 @@
     "singlequote": {
         "prefix": {
             "py": "#",
-            "js": "TAPi18n.__('",
+            "js": "TAPi18n.__(",
             "html": "{{_ '",
             "htm": "{{_ ''",
             "php": "/*\n"
@@ -10,7 +10,7 @@
 
         "suffix": {
             "py": "",
-            "js": "')",
+            "js": ")",
             "html": "'}}",
             "htm": "'}}",
             "php": "*/\n"
@@ -21,7 +21,7 @@
     "doublequote": {
         "prefix": {
             "py": "#",
-            "js": "TAPi18n.__(\"",
+            "js": "TAPi18n.__(",
             "html": "{{_ \"",
             "htm": "{{_ \"",
             "php": "//"
@@ -29,7 +29,7 @@
 
         "suffix": {
             "py": "",
-            "js": "\")",
+            "js": ")",
             "html": "\"}}",
             "htm": "\"}}",
             "php": ""
