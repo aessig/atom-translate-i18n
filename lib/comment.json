@@ -2,9 +2,9 @@
     "singlequote": {
         "prefix": {
             "py": "#",
-            "js": "mf(",
-            "html": "{{mf '",
-            "htm": "{{mf ''",
+            "js": "mf( 'key', ",
+            "html": "{{mf 'key' '",
+            "htm": "{{mf 'key' '",
             "php": "/*\n"
         },
 
@@ -21,9 +21,9 @@
     "doublequote": {
         "prefix": {
             "py": "#",
-            "js": "mf(",
-            "html": "{{mf \"",
-            "htm": "{{mf \"",
+            "js": "mf( \"key\", ",
+            "html": "{{mf \"key\" \"",
+            "htm": "{{mf \"key\" \"",
             "php": "//"
         },
 
